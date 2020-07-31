@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const dbConnection = require('../models/cardSchema.js');
+const dbConnection = require('../models/schemas.js');
 const CardModel = dbConnection.models.card;
 
 const router = Router();

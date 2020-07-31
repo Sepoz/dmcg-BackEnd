@@ -1,5 +1,5 @@
 const session = require('express-session');
-const dbConnection = require('../models/cardSchema.js');
+const dbConnection = require('../models/schemas.js');
 const MongoStore = require('connect-mongo')(session);
 
 const sessionStore = new MongoStore({

@@ -34,7 +34,7 @@ const cardSchema = new Schema({
 });
 
 const userSchema = new Schema({
-	userName: {
+	username: {
 		type: String,
 	},
 	hash: {
